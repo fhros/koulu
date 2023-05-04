@@ -1,0 +1,191 @@
+/* element things */
+
+h4 {
+    font-family: 'Fjalla One';
+    font-weight: lighter;
+}
+
+h1 {
+    font-family: 'Fjalla One';
+}
+
+p {
+    font-family: 'Sarabun', sans-serif;
+}
+
+button {
+    font-family: 'Sarabun', sans-serif;
+}
+
+footer {
+    background-color: #F2FDFF;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    background-color: #F2FDFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* id things */
+/***************************************************************************************************************************************************************************/
+
+#title {
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+#text {
+    margin-top: -20px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+}
+
+#page {
+    margin-top: 5%;
+    float: left;
+    position: fixed;
+    left: 10%;
+    width: 500px;
+}
+
+#kuva1 {
+    position: fixed;
+    bottom: 15%;
+    right: 5%;
+    height: 74%;
+    width: 40%;
+}
+
+#logo {
+    margin-left: 10px;
+}
+
+/* buttons */
+/***************************************************************************************************************************************************************************/
+
+#navBtn {
+    float: right;
+    background-color: #F2FDFF;
+    border-color: #101935;
+    padding: 5px 40px;
+    border-radius: 7px;
+    border-width: 1.5px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+#pageBtn {
+    margin-top: 20px;
+    background-color: #101935;
+    color: #F2FDFF;
+    padding: 15px 70px;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+#pageBtn:hover {
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}
+
+#navBtn:hover {
+    background-color: #7E7F9A;
+    color: #F2FDFF;
+    cursor: pointer;
+}
+
+/* mobile stuff */
+/***************************************************************************************************************************************************************************/
+
+#hamburger {
+    display: none;
+}
+
+#bar {
+    width: 20px;
+    height: 4px;
+    background-color: #101935;
+    margin: 6px 0;
+}
+
+@media (max-width: 900px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    nav {
+        height: 10%;
+    }
+
+    #logo {
+        padding-top: 10px;
+    }
+
+    #kuva1 {
+        bottom: 25%;
+        height: 30%;
+        width: 96%;
+        position: fixed;
+        left: 2%;
+    }
+
+    #page {
+        left: 3%;
+    }
+
+    #title {
+        margin-top: 15%;
+        font-size: 32px;
+        width: 80%;
+        margin-bottom: 10%;
+    }
+
+    #text {
+        font-size: 19px;
+        width: 80%;
+    }
+
+    #pageBtn {
+        width: 96%;
+        position: fixed;
+        left: 2%;
+        right: 2%;
+        bottom: 15%;
+    }
+
+    #navBtn {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        float: right;
+        background-color: #F2FDFF;
+        border-color: #101935;
+        border-style: solid;
+        padding: 5px 15px;
+        border-radius: 7px;
+        border-width: 2px;
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+
+    #hamburger:hover {
+        background-color: #7E7F9A;
+    }
+}
