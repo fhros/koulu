@@ -1,0 +1,77 @@
+/* CSS File */
+
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Center the title */
+  header {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Arrange topics in two rows */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  section {
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Footer styling */
+  footer {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  /* Image styling */
+  .topic-image {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .image-container {
+    text-align: center;
+    margin-bottom: 20px;
+    height: 200px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+  
+  .html-image {
+    max-width: 270px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 110px;
+
+  }
+  
+  /* Responsive styling for small screens */
+  @media screen and (max-width: 768px) {
+    section {
+      width: 90%;
+    }
+  }
+  
