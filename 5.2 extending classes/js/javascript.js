@@ -21,17 +21,17 @@ class Cat extends Animal {
         this.color = "black"
     }
     sleep() {
-        console.log(this.species + " nunnii 4636 tuntii koko aja tai jotai")
+        document.getElementById("jotain1").innerText = this.species + " nunnii 4636 tuntii koko aja tai jotai"
         return this
     }
 
     speak() {
-        console.log("WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+        document.getElementById("jotain2").innerText = "WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         return this
     }
 }
 
-const kittie = new Cat("mirri", 754, 4523)
+const kittie = new Cat("opsfhp", 754, 4523)
 kittie.sleep().speak().sleep()
 
 //class Dog extends Animal {
