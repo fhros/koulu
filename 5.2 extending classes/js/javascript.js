@@ -31,7 +31,7 @@ class Cat extends Animal {
     }
 }
 
-const kittie = new Cat("opsfhp", 754, 4523)
+const kittie = new Cat("mirri", 754, 4523)
 kittie.sleep().speak().sleep()
 
 //class Dog extends Animal {
